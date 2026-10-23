@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Memory Wall — Support</title>
+<meta name="description" content="Help and contact for Memory Wall, an immersive 360° room built out of your own photographs.">
+<style>
+  :root {
+    --ink: #0e1018;
+    --paper: #e9e6df;
+    --muted: #9aa0ae;
+    --gold: #d6ae5f;
+    --rule: #262a38;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 16px 72px;
+    background: var(--ink);
+    color: var(--paper);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 44rem; margin: 0 auto; }
+  header { padding: 72px 0 36px; border-bottom: 1px solid var(--rule); }
+  h1 {
+    font-family: "New York", ui-serif, Georgia, "Times New Roman", serif;
+    font-size: clamp(2.4rem, 7vw, 3.4rem);
+    font-weight: 400; letter-spacing: -0.01em;
+    color: var(--gold); margin: 0 0 .4rem;
+  }
+  .tag { color: var(--muted); font-size: 1.05rem; margin: 0; }
+  h2 {
+    font-family: "New York", ui-serif, Georgia, serif;
+    font-weight: 400; font-size: 1.5rem;
+    margin: 2.6rem 0 .6rem;
+  }
+  h3 { font-size: 1.02rem; font-weight: 600; margin: 1.8rem 0 .3rem; }
+  p { margin: .5rem 0; }
+  a { color: var(--gold); }
+  .contact {
+    margin: 2rem 0; padding: 1.3rem 1.4rem;
+    border: 1px solid var(--rule); border-radius: 14px;
+    background: #141824;
+  }
+  .contact p { margin: 0; }
+  .contact a { font-size: 1.15rem; font-weight: 600; text-decoration: none; }
+  footer {
+    margin-top: 3.5rem; padding-top: 1.4rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted); font-size: .92rem;
+  }
+  @media (prefers-color-scheme: light) {
+    :root { --ink: #fbfaf7; --paper: #1b1d24; --muted: #5d6472;
+            --gold: #8a6a1f; --rule: #e2ddd2; }
+    .contact { background: #f3f0e8; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Memory Wall</h1>
+  <p class="tag">An immersive 360° room built out of your own photographs.
+     For iPhone, iPad and Apple Vision Pro.</p>
+</header>
+
+<div class="contact">
+  <p>Need help, found a bug, or want to suggest something?</p>
+  <p style="margin-top:.5rem"><a href="mailto:mbellazzi@me.com">mbellazzi@me.com</a></p>
+  <p style="margin-top:.5rem; color:var(--muted); font-size:.92rem">
+     I read every message and usually reply within a few days.</p>
+</div>
+
+<h2>Common questions</h2>
+
+<h3>Why does Memory Wall ask for my whole photo library?</h3>
+<p>“Random memories” spreads a selection across everything you have, rather than
+showing only the newest pictures — that needs access to the library as a whole.
+If you would rather not grant it, use <strong>Pick photos</strong> instead: that
+uses the system picker and works perfectly with limited access.</p>
+
+<h3>Do my photographs leave my device?</h3>
+<p>No. They are read from your library, drawn into the room, and that is all.
+There is no account, no server and no analytics. See the
+<a href="privacy.html">privacy policy</a>.</p>
+
+<h3>How do I play my own music?</h3>
+<p>Three ways. Pick something from your library; search Apple Music, if you have
+a subscription; or simply start something in the Music app before you walk in
+and choose <em>Keep what’s playing in Music</em> — the room’s controls will
+drive it.</p>
+
+<h3>Searching Apple Music finds nothing</h3>
+<p>Catalogue search needs an Apple Music subscription. Without one, the search
+looks through the music in your own library only, and says so. Note that
+streaming a song without adding it to your Library does not put it in your
+library.</p>
+
+<h3>Why does the Vision Pro version ask about world sensing?</h3>
+<p>For one thing only: so that a photograph you tap comes and stands squarely in
+front of wherever you are actually looking. Without it the picture arrives off
+to one side and foreshortened. No camera data is used, and nothing is recorded.</p>
+
+<h3>Which devices does it run on?</h3>
+<p>iPhone and iPad running iOS or iPadOS 18 or later, and Apple Vision Pro
+running visionOS 2 or later. One purchase covers all of them.</p>
+
+<h3>My portrait photos look cropped</h3>
+<p>In the Mosaic and the Sphere every tile has to be the same shape, or the grid
+would not close around you. The whole photograph is shown inside the tile, with
+the space left over filled by a blurred copy of the picture — nothing is cut.
+Tap a photograph to bring it closer and it takes its own shape again.</p>
+
+<footer>
+  <p>Memory Wall · <a href="privacy.html">Privacy policy</a> ·
+     <a href="mailto:mbellazzi@me.com">mbellazzi@me.com</a></p>
+</footer>
+
+</div>
+</body>
+</html>
